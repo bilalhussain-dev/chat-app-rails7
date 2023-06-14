@@ -1,0 +1,8 @@
+<div class="user-message message-left">
+  <div class="message-text">
+    <div class="lead"><%= message.user.username %>: <%= message.body %></div>
+  </div>
+  <div class="message-time">
+    <small><%= time_ago_in_words(message.created_at) %> Ago</small>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8 offset-2 mt-5">
+      <div class="card">
+        <div class="card-body">
+          <!-- User Messages -->
+          <div class="user-messages">
+            <%= render @messages %>
+            <div class="user-message message-right">
+              <div class="message-text">
+                <p>Hi there!</p>
+              </div>
+              <div class="message-time">
+                <small>10:02 AM</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <!-- Message Input -->
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Type your message">
+            <button class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
